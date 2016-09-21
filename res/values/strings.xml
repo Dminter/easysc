@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- pulltorefresh -->
+    <string name="pull_to_refresh_pull_label">正在载入…</string>
+    <string name="pull_to_refresh_release_label">正在载入…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_loadmore">正在载入…</string>
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label" translatable="false">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label" translatable="false">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label" translatable="false">@string/pull_to_refresh_refreshing_label</string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="app_down">http://www.appchina.com/app/com.zncm.myhelper/</string>
+  <string name="app_recommend_myhelper">1.笔记，加标签分类记笔记，可摘记读书笔记，可添加图片，录音，涂鸦位置信息或者表情到笔记里面，内容丰富多彩，记录你生活中的点点滴滴。\n
+2.记账，标签记账，方便快捷，柱状图账目分析，清晰明了，是你理财的好帮手。\n
+3.清单，重要事件无遗漏。\n
+4.提醒，朋友的生日，恋人纪念日帮你记。\n
+5.手电，日历，日期查询，备份功能一应俱全，便捷你的生活。\n
+6.分享，支持把日记分享到各大社交软件。\n</string>
+
+
+<string name="app_recommend_zidian">
+1.易字典收录简体汉字两万余个,提供汉字的拼音、笔画、部首、多音字、字义及详细解释等详细信息查询，致力于打造用户喜爱的android汉语字典。  \n
+2.Android原生设计风格,简约美观。 \n
+3.易字典提供汉字、拼音、笔画、偏旁、首字母查字，简洁明了，让你方便快捷查到自己所需的字。  \n
+4.内含习字,汉字收藏等功能。 \n
+</string>
+<string name="app_recommend_cy">
+1.易成语共收录成语三万余条，每条成语包括拼音、释义、出处等内容。   \n
+2.查询成语便捷，智能匹配首部尾部和任意位置的关键字。无需联网，随时随地随心用。  \n
+3.可根据字数匹配成语，成语接龙游戏让你学习词条更富乐趣，成语收藏，更快更方便掌握成语。  \n
+</string>
+
+    <string name="app_new">
+
+</string>
+
+<string name="app_about">
+1.收纳唐诗,宋词,元曲两百多位诗人,词人的近一千篇优秀作品,可谓是品类齐全\n
+2."熟读唐诗三百首,不会作诗也会吟",本软件是幼儿启蒙,中小学生接受诗歌熏陶,了解中国古典诗词的绝佳入门\n
+3.本应用查询诗词方便容易,可以根据诗人,诗歌名称,诗歌体裁,诗歌内容查询诗歌,排版整洁清晰,还附带注解以及百度百科的解释,有助于你能更快更好的掌握诗词,还可对感觉不错的诗词进行收藏,以备随时随地诵读和学习\n
+</string>
+
+<string name="app_tips">
+小贴士\n
+1.设置->常规里面可设置字体大小,诗词详情界面是否显示注解\n
+2.诗词详情界面可以点击五角星收藏诗歌,也可以点击分享按钮分享到其他程序,点击地球图标在百度百科查看诗词注解\n
+3.诗词列表长按可收藏诗歌,我的收藏长按可取消收藏,搜索诗歌可以输入诗歌名称,诗人,诗词内容\n
+</string>
+    <string name="app_name">易诗词</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_texture"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/tvZi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:singleLine="true"
+        android:text="美女"
+        android:textColor="@color/black"
+        android:textSize="24.0sp" />
+</RelativeLayout>

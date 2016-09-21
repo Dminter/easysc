@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_texture"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:scrollbarSize="3.0dip"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="72dip"
+                    android:layout_height="72dip"
+                    android:layout_marginTop="30.0dip"
+                    android:src="@drawable/myhelper_icon" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10.0dip"
+                    android:gravity="center"
+                    android:text="收纳盒子"
+                    android:textColor="#ff565656"
+                    android:textSize="14.0sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="@string/app_down"
+                    android:textColor="@color/red"
+                    android:textSize="15.0sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:layout_marginTop="20.0dip"
+                    android:gravity="left"
+                    android:text="@string/app_recommend_myhelper"
+                    android:textColor="#ff3c3c3c"
+                    android:textSize="16.0sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="72dip"
+                    android:layout_height="72dip"
+                    android:layout_marginTop="30.0dip"
+                    android:src="@drawable/zidian_icon" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10.0dip"
+                    android:gravity="center"
+                    android:text="易字典"
+                    android:textColor="#ff565656"
+                    android:textSize="14.0sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://soft.3g.cn/Xuan/xuanInfo.html?id=51118"
+                    android:textColor="@color/red"
+                    android:textSize="15.0sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:layout_marginTop="20.0dip"
+                    android:gravity="left"
+                    android:text="@string/app_recommend_zidian"
+                    android:textColor="#ff3c3c3c"
+                    android:textSize="16.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="72dip"
+                    android:layout_height="72dip"
+                    android:layout_marginTop="30.0dip"
+                    android:src="@drawable/icon_cy" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10.0dip"
+                    android:gravity="center"
+                    android:text="易成语"
+                    android:textColor="#ff565656"
+                    android:textSize="14.0sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:text="http://soft.3g.cn/Xuan/xuanInfo.html?id=359411708"
+                    android:textColor="@color/red"
+                    android:textSize="15.0sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:layout_marginTop="20.0dip"
+                    android:gravity="left"
+                    android:text="@string/app_recommend_cy"
+                    android:textColor="#ff3c3c3c"
+                    android:textSize="16.0sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

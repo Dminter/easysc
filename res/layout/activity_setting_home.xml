@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip" >
+
+            <TableRow
+                android:id="@+id/tablerow_normal"
+                style="@style/setting_table_row" >
+
+                <TextView
+                    style="@style/setting_text"
+                    android:text="常规" />
+            </TableRow>
+
+            <include layout="@layout/view_setting_div_second" />
+
+            <TableRow
+                android:id="@+id/tablerow_aboutapp"
+                style="@style/setting_table_row" >
+
+                <TextView
+                    android:id="@+id/tv_userinfo"
+                    style="@style/setting_text"
+                    android:text="关于软件" />
+            </TableRow>
+
+            <include layout="@layout/view_setting_div_second" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

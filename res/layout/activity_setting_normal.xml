@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip">
+
+
+            <TableRow
+                android:id="@+id/tablerow_commentopen"
+                style="@style/setting_table_row"
+                android:clickable="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/setting_text"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="显示诗歌注解" />
+
+                    <CheckBox
+                        android:id="@+id/cbCommentOpen"
+                        style="@style/setting_checkbox"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:checked="true" />
+                </RelativeLayout>
+            </TableRow>
+
+            <include layout="@layout/view_setting_div_second" />
+
+
+            <TableRow
+                android:id="@+id/tablerow_font"
+                style="@style/setting_table_row"
+                android:clickable="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/setting_text"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="字体" />
+
+                    <TextView
+                        android:id="@+id/tvFontType"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dip"
+                        style="@style/setting_text"
+                        android:text="小" />
+                </RelativeLayout>
+            </TableRow>
+
+            <include layout="@layout/view_setting_div_second" />
+
+            <TableRow style="@style/setting_table_row">
+
+                <TextView
+                    style="@style/setting_text"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="注:字体更改,在某些界面需要重启程序方可生效" />
+
+            </TableRow>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

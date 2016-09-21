@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <TableRow
+        android:id="@+id/tablerow_font_big"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="大" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+    <TableRow
+        android:id="@+id/tablerow_font_middle"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="中" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+    <TableRow
+        android:id="@+id/tablerow_font_small"
+        style="@style/setting_table_row"
+        android:clickable="true">
+
+        <TextView
+            style="@style/setting_text"
+            android:text="小" />
+    </TableRow>
+
+    <include layout="@layout/view_setting_div_second" />
+
+</LinearLayout>
